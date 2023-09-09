@@ -1,0 +1,11 @@
+
+RewriteEngine On
+
+RewriteRule ^bookTour/(.*)$ bookTour.php?id=$1 [QSA]
+RewriteRule ^viewDetails/(.*)$ viewDetails.php?id=$1 [QSA]
+RewriteRule ^downloadPdf/(.*)$ downloadPdf.php?id=$1 [QSA]
+RewriteRule ^bookReceipt/(.*)$ bookReceipt.php?id=$1 [QSA]
+RewriteRule ^userReceipt/(.*)$ userReceipt.php?id=$1 [QSA]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]

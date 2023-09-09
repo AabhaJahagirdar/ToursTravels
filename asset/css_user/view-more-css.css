@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  
+  }
+  body{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeff3;
+  }
+  .header{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+   
+    background: #131419;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1{
+      color:#fff;
+      font-family: Galada;
+  }
+  .header a i{
+      padding:10px;
+      color: #fff;
+      border-radius: 50px;
+      font-size: 1.5rem;
+      box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .more-destinations .search{
+    margin-left: 20px;
+    margin-top:10px;
+    background: #eeeff3;
+    width:80%;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius:40px;
+    border-top-left-radius: 10px;
+    box-shadow:7px 7px 10px #cbced1, -7px -7px 10px #ffff;
+   
+  }
+ 
+  .more-destinations .search #destination{
+       width:20%;
+       height: 4rem;
+       padding: 4px;
+       flex-grow: 1;
+       background-color: transparent;
+       outline: none;
+       border: none;
+       padding: 2em;
+   
+  }
+  .more-destinations .search .search-btn{
+    width:20%;
+    height: 4rem;
+    background: #1d1f21;
+    color: #ffffff;
+    border:none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-top-right-radius:40px;
+    border-bottom-right-radius: 40px;
+  }
+  .more-destinations .search .search-btn:hover{
+  font-size: 1.2rem;
+  box-shadow:   inset 6px 6px 11px #0f1011,
+            inset -6px -6px 11px #2e3235;
+            transition: all .6s;
+  }
+  
+  
+
+@media only screen and (max-width: 720px){
+    .more-destinations .search{
+        width:100%;
+        margin:0;
+        height:3rem;
+    }
+    .more-destinations .search .search-btn{
+        width:30%;
+        font-size: 1rem;
+        height:3rem;
+    }
+    .more-destinations .search .search-btn:hover{
+        font-size: .8rem;
+    }
+
+}

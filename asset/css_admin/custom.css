@@ -1,0 +1,18 @@
+
+
+form input,form  select{
+	height: 2rem;
+}
+
+
+form label{
+	font-size: .7rem;
+	font-weight: bold;
+}
+.redStar{
+	color: red;
+	font-weight: bold;
+}
+#dttable .btn-sm{
+	margin-top:10px; 
+}
