@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 html{
   scroll-behavior: smooth;
-  font-size: 2rem;
+  font-size: 1rem;
   overflow-x: hidden;
 }
 body{
