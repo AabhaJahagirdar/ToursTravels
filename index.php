@@ -10,7 +10,8 @@
         <form method="post">
           
           <button class="btn-search" type="submit" name="searchKey"><i class="fa fa-search"></i></button>
-          <input type="text" class="input-search" name="search" placeholder="Type to Search..." required>
+         <!-- <input type="text" class="input-search" name="search" placeholder="Type to Search..." required>-->
+		<input type="text" class="input-search" name="search" placeholder="Type to Search..." required>
 
         </form>
       </div>
