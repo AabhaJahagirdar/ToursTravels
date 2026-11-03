@@ -1,6 +1,5 @@
 ﻿# ToursTravels
 
-//Aabha Nandkumar Jahagirdar
 //Tours and travels website
 
 # travello
