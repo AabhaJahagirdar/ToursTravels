@@ -1,7 +1,5 @@
 ﻿# ToursTravels
 
-//Tours and travels website
-
 # travello
 
 # How to run code?
