@@ -29,7 +29,7 @@
                   <a href="#packages" class="discover-btn">discover more</a>
                 </div>
                     
-            </div>
+            
             
             <div class="swiper-slide" style="background:linear-gradient(50deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.6));">
               <div class="video-container">
